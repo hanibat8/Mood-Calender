@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT Serif", serif;
+    font-weight: 300;
+    line-height: 1.4;
+    background-color: rgb(243, 235, 235);
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.calender {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-rows: repeat(4, min-max(15rem, 1fr));
+    grid-template-columns: repeat(3, 26rem);
+    grid-gap: 3rem;
+    grid-column-gap: 1rem;
+}
+
+.heading h1 {
+    font-size: 2.5rem;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    transition: all 0.2s ease-in;
+}
+
+.icon:not(:last-of-type) {
+    margin-right: 1.5rem;
+}
+
+.icon__happy {
+    fill: rgb(13, 82, 76);
+}
+
+.icon__smile {
+    fill: rgb(79, 228, 215);
+}
+
+.icon__serious {
+    fill: rgb(185, 187, 162);
+}
+
+.icon__sad {
+    fill: rgb(109, 92, 54);
+}
+
+.icon__cry {
+    fill: rgb(224, 59, 59);
+}
+
+div p {
+    background-color: rgb(202, 176, 176);
+    margin: 0.4rem;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.month p:not(.empty):hover {
+    transform: translateY(-0.1rem);
+    background-color: rgb(170, 148, 148);
+    cursor: pointer;
+}
+
+.icon__happy-active {
+    background-color: rgb(13, 82, 76);
+}
+
+.icon__smile-active {
+    background-color: rgb(79, 228, 215);
+}
+
+.icon__serious-active {
+    background-color: rgb(185, 187, 162);
+}
+
+.icon__sad-active {
+    background-color: rgb(109, 92, 54);
+}
+
+.icon__cry-active {
+    background-color: rgb(224, 59, 59);
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.icon-active {
+    transform: scale(1.4);
+}
+
+.month {
+    display: grid;
+    grid-template-columns: repeat(7, 2.8rem);
+    grid-gap: 0.5rem;
+}
+
+.month h2 {
+    grid-row: 1/2;
+    grid-column: 1/-1;
+    margin-bottom: 0.5rem;
+}
+
+.month col {
+    grid-column: 1/2;
+    grid-row: 1/-1;
+}
+
+.month p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.month .selection {
+    margin-top: 2rem;
+}
+
+.selection h2 {
+    font-size: 1.8rem;
+    margin: 1rem 0;
+}

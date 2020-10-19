@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mood calendar</title>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>
+                 Mood Calendar
+            </h1>
+            <p>~ color each day depending on what your mood was / is ~</p>
+        </div>
+        <div class="selection">
+            <h2>Select mood:</h2>
+            
+            <svg class="icon icon__happy">
+                <use xlink:href="img/sprite.svg#icon-happy"></use>
+            </svg>
+            
+            <svg class="icon icon__smile">
+                <use xlink:href="img/sprite.svg#icon-smile"></use>
+            </svg>
+            
+            <svg class="icon icon__serious">
+                <use xlink:href="img/sprite.svg#icon-sad"></use>
+            </svg>
+            
+            <svg class="icon icon__sad">
+                <use xlink:href="img/sprite.svg#icon-neutral"></use>
+            </svg>
+            
+            <svg class="icon icon__cry">
+                <use xlink:href="img/sprite.svg#icon-crying"></use>
+            </svg>
+
+            <p>then click on the circles below</p>
+        </div>
+
+        <div class="calender">
+            <div class="month">
+                <h2>January</h2>
+                <div class="month__col">
+                    <h3>Sun</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>5</p>
+                    <p>12</p>
+                    <p>19</p>
+                    <p>26</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Mon</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>6</p>
+                    <p>13</p>
+                    <p>20</p>
+                    <p>27</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Tue</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>7</p>
+                    <p>14</p>
+                    <p>21</p>
+                    <p>28</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Wed</h3>
+                    <p>1</p>
+                    <p>8</p>
+                    <p>15</p>
+                    <p>22</p>
+                    <p>29</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Thur</h3>
+                    <p>2</p>
+                    <p>9</p>
+                    <p>16</p>
+                    <p>23</p>
+                    <p>30</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Fri</h3>
+                    <p>3</p>
+                    <p>10</p>
+                    <p>17</p>
+                    <p>24</p>
+                    <p>31</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Sat</h3>
+                    <p>4</p>
+                    <p>11</p>
+                    <p>18</p>
+                    <p>25</p>
+                </div>
+            </div>
+            
+            <div class="month">
+                <h2>February</h2>
+
+                <div class="month__col">
+                    <h3>Sun</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>5</p>
+                    <p>12</p>
+                    <p>19</p>
+                    <p>26</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Mon</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>6</p>
+                    <p>13</p>
+                    <p>20</p>
+                    <p>27</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Tue</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>7</p>
+                    <p>14</p>
+                    <p>21</p>
+                    <p>28</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Wed</h3>
+                    <p>1</p>
+                    <p>8</p>
+                    <p>15</p>
+                    <p>22</p>
+                    <p>29</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Thur</h3>
+                    <p>2</p>
+                    <p>9</p>
+                    <p>16</p>
+                    <p>23</p>
+                    <p>30</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Fri</h3>
+                    <p>3</p>
+                    <p>10</p>
+                    <p>17</p>
+                    <p>24</p>
+                    <p>31</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Sat</h3>
+                    <p>4</p>
+                    <p>11</p>
+                    <p>18</p>
+                    <p>25</p>
+                </div>
+            </div>
+            <div class="month">
+                <h2>March</h2>
+
+                <div class="month__col">
+                    <h3>Sun</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>5</p>
+                    <p>12</p>
+                    <p>19</p>
+                    <p>26</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Mon</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>6</p>
+                    <p>13</p>
+                    <p>20</p>
+                    <p>27</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Tue</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>7</p>
+                    <p>14</p>
+                    <p>21</p>
+                    <p>28</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Wed</h3>
+                    <p>1</p>
+                    <p>8</p>
+                    <p>15</p>
+                    <p>22</p>
+                    <p>29</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Thur</h3>
+                    <p>2</p>
+                    <p>9</p>
+                    <p>16</p>
+                    <p>23</p>
+                    <p>30</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Fri</h3>
+                    <p>3</p>
+                    <p>10</p>
+                    <p>17</p>
+                    <p>24</p>
+                    <p>31</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Sat</h3>
+                    <p>4</p>
+                    <p>11</p>
+                    <p>18</p>
+                    <p>25</p>
+                </div>
+            </div>
+            <div class="month">
+                <h2>April</h2>
+
+                <div class="month__col">
+                    <h3>Sun</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>5</p>
+                    <p>12</p>
+                    <p>19</p>
+                    <p>26</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Mon</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>6</p>
+                    <p>13</p>
+                    <p>20</p>
+                    <p>27</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Tue</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>7</p>
+                    <p>14</p>
+                    <p>21</p>
+                    <p>28</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Wed</h3>
+                    <p>1</p>
+                    <p>8</p>
+                    <p>15</p>
+                    <p>22</p>
+                    <p>29</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Thur</h3>
+                    <p>2</p>
+                    <p>9</p>
+                    <p>16</p>
+                    <p>23</p>
+                    <p>30</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Fri</h3>
+                    <p>3</p>
+                    <p>10</p>
+                    <p>17</p>
+                    <p>24</p>
+                    <p>31</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Sat</h3>
+                    <p>4</p>
+                    <p>11</p>
+                    <p>18</p>
+                    <p>25</p>
+                </div>
+            </div>
+            <div class="month">
+                <h2>May</h2>
+
+                <div class="month__col">
+                    <h3>Sun</h3>
+                    <p class="empty"> &nbsp;</p>
+                    <p>5</p>
+                    <p>12</p>
+                    <p>19</p>
+                    <p>26</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Mon</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>6</p>
+                    <p>13</p>
+                    <p>20</p>
+                    <p>27</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Tue</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>7</p>
+                    <p>14</p>
+                    <p>21</p>
+                    <p>28</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Wed</h3>
+                    <p>1</p>
+                    <p>8</p>
+                    <p>15</p>
+                    <p>22</p>
+                    <p>29</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Thur</h3>
+                    <p>2</p>
+                    <p>9</p>
+                    <p>16</p>
+                    <p>23</p>
+                    <p>30</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Fri</h3>
+                    <p>3</p>
+                    <p>10</p>
+                    <p>17</p>
+                    <p>24</p>
+                    <p>31</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Sat</h3>
+                    <p>4</p>
+                    <p>11</p>
+                    <p>18</p>
+                    <p>25</p>
+                </div>
+            </div>
+            <div class="month">
+                <h2>June</h2>
+
+                <div class="month__col">
+                    <h3>Sun</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>5</p>
+                    <p>12</p>
+                    <p>19</p>
+                    <p>26</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Mon</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>6</p>
+                    <p>13</p>
+                    <p>20</p>
+                    <p>27</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Tue</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>7</p>
+                    <p>14</p>
+                    <p>21</p>
+                    <p>28</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Wed</h3>
+                    <p>1</p>
+                    <p>8</p>
+                    <p>15</p>
+                    <p>22</p>
+                    <p>29</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Thur</h3>
+                    <p>2</p>
+                    <p>9</p>
+                    <p>16</p>
+                    <p>23</p>
+                    <p>30</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Fri</h3>
+                    <p>3</p>
+                    <p>10</p>
+                    <p>17</p>
+                    <p>24</p>
+                    <p>31</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Sat</h3>
+                    <p>4</p>
+                    <p>11</p>
+                    <p>18</p>
+                    <p>25</p>
+                </div>
+            </div>
+            <div class="month">
+                <h2>July</h2>
+
+                <div class="month__col">
+                    <h3>Sun</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>5</p>
+                    <p>12</p>
+                    <p>19</p>
+                    <p>26</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Mon</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>6</p>
+                    <p>13</p>
+                    <p>20</p>
+                    <p>27</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Tue</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>7</p>
+                    <p>14</p>
+                    <p>21</p>
+                    <p>28</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Wed</h3>
+                    <p>1</p>
+                    <p>8</p>
+                    <p>15</p>
+                    <p>22</p>
+                    <p>29</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Thur</h3>
+                    <p>2</p>
+                    <p>9</p>
+                    <p>16</p>
+                    <p>23</p>
+                    <p>30</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Fri</h3>
+                    <p>3</p>
+                    <p>10</p>
+                    <p>17</p>
+                    <p>24</p>
+                    <p>31</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Sat</h3>
+                    <p>4</p>
+                    <p>11</p>
+                    <p>18</p>
+                    <p>25</p>
+                </div>
+            </div>
+            <div class="month">
+                <h2>August</h2>
+
+                <div class="month__col">
+                    <h3>Sun</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>5</p>
+                    <p>12</p>
+                    <p>19</p>
+                    <p>26</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Mon</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>6</p>
+                    <p>13</p>
+                    <p>20</p>
+                    <p>27</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Tue</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>7</p>
+                    <p>14</p>
+                    <p>21</p>
+                    <p>28</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Wed</h3>
+                    <p>1</p>
+                    <p>8</p>
+                    <p>15</p>
+                    <p>22</p>
+                    <p>29</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Thur</h3>
+                    <p>2</p>
+                    <p>9</p>
+                    <p>16</p>
+                    <p>23</p>
+                    <p>30</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Fri</h3>
+                    <p>3</p>
+                    <p>10</p>
+                    <p>17</p>
+                    <p>24</p>
+                    <p>31</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Sat</h3>
+                    <p>4</p>
+                    <p>11</p>
+                    <p>18</p>
+                    <p>25</p>
+                </div>
+            </div>
+            <div class="month">
+                <h2>September</h2>
+
+                <div class="month__col">
+                    <h3>Sun</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>5</p>
+                    <p>12</p>
+                    <p>19</p>
+                    <p>26</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Mon</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>6</p>
+                    <p>13</p>
+                    <p>20</p>
+                    <p>27</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Tue</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>7</p>
+                    <p>14</p>
+                    <p>21</p>
+                    <p>28</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Wed</h3>
+                    <p>1</p>
+                    <p>8</p>
+                    <p>15</p>
+                    <p>22</p>
+                    <p>29</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Thur</h3>
+                    <p>2</p>
+                    <p>9</p>
+                    <p>16</p>
+                    <p>23</p>
+                    <p>30</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Fri</h3>
+                    <p>3</p>
+                    <p>10</p>
+                    <p>17</p>
+                    <p>24</p>
+                    <p>31</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Sat</h3>
+                    <p>4</p>
+                    <p>11</p>
+                    <p>18</p>
+                    <p>25</p>
+                </div>
+            </div>
+            <div class="month">
+                <h2>October</h2>
+
+                <div class="month__col">
+                    <h3>Sun</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>5</p>
+                    <p>12</p>
+                    <p>19</p>
+                    <p>26</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Mon</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>6</p>
+                    <p>13</p>
+                    <p>20</p>
+                    <p>27</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Tue</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>7</p>
+                    <p>14</p>
+                    <p>21</p>
+                    <p>28</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Wed</h3>
+                    <p>1</p>
+                    <p>8</p>
+                    <p>15</p>
+                    <p>22</p>
+                    <p>29</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Thur</h3>
+                    <p>2</p>
+                    <p>9</p>
+                    <p>16</p>
+                    <p>23</p>
+                    <p>30</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Fri</h3>
+                    <p>3</p>
+                    <p>10</p>
+                    <p>17</p>
+                    <p>24</p>
+                    <p>31</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Sat</h3>
+                    <p>4</p>
+                    <p>11</p>
+                    <p>18</p>
+                    <p>25</p>
+                </div>
+            </div>
+            <div class="month">
+                <h2>November</h2>
+
+                <div class="month__col">
+                    <h3>Sun</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>5</p>
+                    <p>12</p>
+                    <p>19</p>
+                    <p>26</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Mon</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>6</p>
+                    <p>13</p>
+                    <p>20</p>
+                    <p>27</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Tue</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>7</p>
+                    <p>14</p>
+                    <p>21</p>
+                    <p>28</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Wed</h3>
+                    <p>1</p>
+                    <p>8</p>
+                    <p>15</p>
+                    <p>22</p>
+                    <p>29</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Thur</h3>
+                    <p>2</p>
+                    <p>9</p>
+                    <p>16</p>
+                    <p>23</p>
+                    <p>30</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Fri</h3>
+                    <p>3</p>
+                    <p>10</p>
+                    <p>17</p>
+                    <p>24</p>
+                    <p>31</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Sat</h3>
+                    <p>4</p>
+                    <p>11</p>
+                    <p>18</p>
+                    <p>25</p>
+                </div>
+            </div>
+            <div class="month">
+                <h2>December</h2>
+
+                <div class="month__col">
+                    <h3>Sun</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>5</p>
+                    <p>12</p>
+                    <p>19</p>
+                    <p>26</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Mon</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>6</p>
+                    <p>13</p>
+                    <p>20</p>
+                    <p>27</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Tue</h3>
+                    <p class="empty">&nbsp;</p>
+                    <p>7</p>
+                    <p>14</p>
+                    <p>21</p>
+                    <p>28</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Wed</h3>
+                    <p>1</p>
+                    <p>8</p>
+                    <p>15</p>
+                    <p>22</p>
+                    <p>29</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Thur</h3>
+                    <p>2</p>
+                    <p>9</p>
+                    <p>16</p>
+                    <p>23</p>
+                    <p>30</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Fri</h3>
+                    <p>3</p>
+                    <p>10</p>
+                    <p>17</p>
+                    <p>24</p>
+                    <p>31</p>
+                </div>
+
+                <div class="month__col">
+                    <h3>Sat</h3>
+                    <p>4</p>
+                    <p>11</p>
+                    <p>18</p>
+                    <p>25</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
